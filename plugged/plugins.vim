@@ -1,5 +1,6 @@
 call plug#begin()
 
+Plug 'cocopon/iceberg.vim'
 Plug 'dracula/vim'
 Plug 'jparise/vim-graphql'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
