@@ -1,3 +1,24 @@
+" CocInstall
+let g:coc_global_extensions = [
+  \ 'coc-blade-linter',
+  \ 'coc-blade-formatter',
+  \ 'coc-css',
+  \ 'coc-eslint',
+  \ 'coc-git',
+  \ 'coc-graphql',
+  \ 'coc-html',
+  \ '@yaegassy/coc-intelephense',
+  \ 'coc-json',
+  \ 'coc-php-cs-fixer',
+  \ 'coc-prettier',
+  \ 'coc-python',
+  \ 'coc-sh',
+  \ 'coc-sql',
+  \ 'coc-tsserver',
+  \ 'coc-vetur',
+  \ 'coc-yaml'
+  \ ]
+
 " Set intenal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
 set encoding=utf-8
