@@ -1,6 +1,5 @@
 source $HOME/.config/nvim/plugged/plugins.vim
 
-source $HOME/.config/nvim/modules/clipboard.vim
 source $HOME/.config/nvim/modules/coc.vim
 source $HOME/.config/nvim/modules/fzf.vim
 source $HOME/.config/nvim/modules/general.vim
