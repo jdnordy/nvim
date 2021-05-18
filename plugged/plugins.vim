@@ -14,5 +14,7 @@ Plug 'peitalin/vim-jsx-typescript'
 Plug 'posva/vim-vue'
 Plug 'ryanoasis/vim-devicons'
 Plug 'scrooloose/nerdtree'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
