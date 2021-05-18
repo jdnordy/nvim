@@ -20,4 +20,4 @@ Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 " CUSTOM PLUGINS
-source $HOME/.config/nvim/plugged/bclose.vim
+source $HOME/.config/nvim/plugged/custom/kwbd.vim

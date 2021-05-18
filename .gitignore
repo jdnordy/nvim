@@ -1,3 +1,5 @@
 .netrwhist
 plugged/*
 !plugged/plugins.vim
+!plugged/custom
+!plugged/custom/*
