@@ -1,3 +1,4 @@
+let mapleader = ';'
 set autoindent
 set clipboard+=unnamedplus
 set laststatus=2

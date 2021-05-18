@@ -1,3 +1,6 @@
+" define leader first
+nmap <leader>bd <Plug>Kwbd
+
 source $HOME/.config/nvim/plugged/plugins.vim
 
 source $HOME/.config/nvim/modules/coc.vim

@@ -18,3 +18,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
+
+" CUSTOM PLUGINS
+source $HOME/.config/nvim/plugged/bclose.vim

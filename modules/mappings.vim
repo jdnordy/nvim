@@ -8,6 +8,6 @@ nnoremap <A-j> <C-w>j
 nnoremap <A-k> <C-w>k
 nnoremap <A-l> <C-w>l
 " buffers
-nnoremap gn :bn<CR>
-nnoremap gp :bp<CR>
-nnoremap ge :e#<CR>
+nnoremap <leader>n :bn<CR>
+nnoremap <leader>b :bp<CR>
+nnoremap <leader>p :e#<CR>
