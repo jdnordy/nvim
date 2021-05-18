@@ -11,3 +11,11 @@ nnoremap <A-l> <C-w>l
 nnoremap <leader>n :bn<CR>
 nnoremap <leader>b :bp<CR>
 nnoremap <leader>! :Kwbd<CR>
+" auto closing brackets
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>0
+inoremap {;<CR> {<CR>};<ESC>0
