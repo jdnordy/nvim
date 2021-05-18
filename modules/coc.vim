@@ -14,7 +14,6 @@ let g:coc_global_extensions = [
   \ 'coc-sh',
   \ 'coc-sql',
   \ 'coc-tsserver',
-  \ 'coc-vetur',
   \ 'coc-yaml'
   \ ]
 
