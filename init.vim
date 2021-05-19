@@ -1,5 +1,5 @@
 " define leader first
-nmap <leader>bd <Plug>Kwbd
+let mapleader = ';'
 
 source $HOME/.config/nvim/plugged/plugins.vim
 
