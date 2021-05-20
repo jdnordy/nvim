@@ -1,7 +1,7 @@
 " define leader first
 let mapleader = ';'
 
-source $HOME/.config/nvim/plugged/plugins.vim
+source $HOME/.config/nvim/modules/plugins.vim
 
 source $HOME/.config/nvim/modules/coc.vim
 source $HOME/.config/nvim/modules/filetype.vim

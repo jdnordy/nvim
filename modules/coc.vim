@@ -8,12 +8,14 @@ let g:coc_global_extensions = [
   \ 'coc-html',
   \ '@yaegassy/coc-intelephense',
   \ 'coc-json',
+  \ 'coc-pairs',
   \ 'coc-php-cs-fixer',
   \ 'coc-prettier',
   \ 'coc-python',
   \ 'coc-sh',
   \ 'coc-sql',
   \ 'coc-tsserver',
+  \ 'coc-vetur',
   \ 'coc-yaml'
   \ ]
 

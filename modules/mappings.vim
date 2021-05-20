@@ -13,11 +13,11 @@ nnoremap <leader>b :bp<CR>
 nnoremap <leader>g :#e<CR>
 nnoremap <leader>d :Kwbd<CR>
 " auto closing brackets
-inoremap " ""<left>
-inoremap ' ''<left>
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
+" inoremap " ""<left>
+" inoremap ' ''<left>
+" inoremap ( ()<left>
+" inoremap [ []<left>
+" inoremap { {}<left>
 " inoremap {<CR> {<CR>}<ESC>0
 " inoremap {;<CR> {<CR>};<ESC>0
 " SAVING

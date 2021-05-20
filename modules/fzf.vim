@@ -1,4 +1,4 @@
-let $FZF_DEFAULT_COMMAND = 'rg --files'
+let $FZF_DEFAULT_COMMAND = "rg --hidden --files -g '!.git/*' -g '!.vscode/*'"
 
 nnoremap <C-p> :FZF<CR>
 let g:fzf_action = {
@@ -8,5 +8,5 @@ let g:fzf_action = {
   \}
 command! -bang -nargs=* Rg
   \ call fzf#vim#grep(
-  \   'rg --column --line-number --no-heading --color=always --smart-case -- '.shellescape(<q-args>), 1,
+  \   'rg  --column --line-number --no-heading --color=always --smart-case -- '.shellescape(<q-args>), 1,
   \   fzf#vim#with_preview(), <bang>0)
