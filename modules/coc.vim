@@ -20,7 +20,7 @@ let g:coc_global_extensions = [
   \ ]
 
 " Coc extensions configurations
-source ./coc/git.vim
+source $HOME/.config/nvim/modules/coc/git.vim
 
 " Set intenal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
