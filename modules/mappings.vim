@@ -14,4 +14,4 @@ nnoremap <leader>g :e#<CR>
 nnoremap <leader>d :Kwbd<CR>
 " SAVING
 nnoremap <C-S> :w<CR>
-inoremap <C-S> <ESC><C-S>
+imap <C-S> <ESC><C-S>
