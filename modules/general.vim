@@ -5,6 +5,9 @@ set laststatus=2
 set statusline=%f "tail of the filename
 set number relativenumber
 filetype plugin indent on
+" keep lines below cursor
+set scrolloff=10
+set tw=500
 
 " Triger `autoread` when files changes on disk
 " https://unix.stackexchange.com/questions/149209/refresh-changed-content-of-file-opened-in-vim/383044#383044
